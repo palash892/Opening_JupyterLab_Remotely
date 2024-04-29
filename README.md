@@ -1,6 +1,25 @@
-# How to open jupyter-lab remotely
+## Opening JupyterLab Remotely
 
-1. jupyter-lab password<br>
-2. jupyter notebook --ip='*' --no-browser<br>
-#if the IP of the remote server this 10.10.10.10 and the notebook launches on port 8889, on the browser url type, then open a browser in your local machine and type<br>
-3. 10.10.10.10.:8889<br>
+To access JupyterLab on a remote server, follow these steps after logging in:
+
+1. Enter the following command in your terminal:
+
+    ```
+    path/to/the/jupyter-lab/jupyter-lab password
+    ```
+
+2. Start Jupyter Notebook with the following command:
+
+    ```
+    jupyter notebook --ip='*' --no-browser
+    ```
+
+    If the IP address of the remote server is `10.10.10.10` and the notebook launches on port `8889`, open a browser on your local machine and type the following URL:
+
+    ```
+    http://10.10.10.10:8889
+    ```
+
+    Make sure to replace `10.10.10.10` with the actual IP address of your remote server and `8889` with the port number specified during notebook launch.
+
+Copy and paste the commands directly into your terminal to access JupyterLab remotely.
