@@ -1,4 +1,4 @@
-# jupyter-lab
+# How to open jupyter-lab remotely
 
 1. jupyter-lab password<br>
 2. jupyter notebook --ip='*' --no-browser<br>
